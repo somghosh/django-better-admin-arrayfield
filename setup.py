@@ -47,7 +47,7 @@ with open("HISTORY.md") as f:
     history = f.read().replace(".. :changelog:", "")
 
 setup(
-    name="django-better-admin-arrayfield",
+    name="django-better-admin-arrayfield-sgcustom",
     version=version,
     description="""Better ArrayField widget for admin""",
     long_description=readme + "\n\n" + history,
